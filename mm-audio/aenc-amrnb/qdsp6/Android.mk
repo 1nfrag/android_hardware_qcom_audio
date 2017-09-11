@@ -24,6 +24,7 @@ include $(CLEAR_VARS)
 
 libOmxAmrEnc-inc       := $(LOCAL_PATH)/inc
 libOmxAmrEnc-inc       += $(TARGET_OUT_HEADERS)/mm-core/omxcore
+libOmxAmrEnc-inc       += ${TOP}/hardware/qcom/media-caf/msm8996/mm-core/inc
 
 LOCAL_MODULE            := libOmxAmrEnc
 LOCAL_MODULE_TAGS       := optional
